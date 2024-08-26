@@ -9,22 +9,22 @@ module.exports = {
     themes: [
       {
         light: {
-          primary: "#93BBFB",
-          "primary-content": "#212638",
-          secondary: "#DAE8FF",
-          "secondary-content": "#212638",
-          accent: "#93BBFB",
-          "accent-content": "#212638",
-          neutral: "#212638",
-          "neutral-content": "#ffffff",
-          "base-100": "#ffffff",
-          "base-200": "#f4f8ff",
-          "base-300": "#DAE8FF",
-          "base-content": "#212638",
-          info: "#93BBFB",
-          success: "#34EEB6",
-          warning: "#FFCF72",
-          error: "#FF8863",
+          primary: "#65B3AE", // Teal
+          "primary-content": "#000000", // Black for high contrast
+          secondary: "#008F6A", // Pale Teal
+          "secondary-content": "#FFFFFF", // White
+          accent: "#0E2520", // Desaturated Green for accents
+          "accent-content": "#FFFFFF", // White for high contrast
+          neutral: "#FFFFFF", // White
+          "neutral-content": "#000000", // Black
+          "base-100": "#FFFFFF", // White background
+          "base-200": "#F4F8FF", // Lightened base for variation
+          "base-300": "#E0E6E9", // A light grey for subtle content
+          "base-content": "#000000", // Black for text
+          info: "#65B3AE", // Teal for info
+          success: "#008F6A", // Pale Teal for success
+          warning: "#FFCF72", // Warm tone for warnings (keeping original)
+          error: "#FF8863", // Bright tone for errors (keeping original)
 
           "--rounded-btn": "9999rem",
 
@@ -41,22 +41,22 @@ module.exports = {
       },
       {
         dark: {
-          primary: "#212638",
-          "primary-content": "#F9FBFF",
-          secondary: "#323f61",
-          "secondary-content": "#F9FBFF",
-          accent: "#4969A6",
-          "accent-content": "#F9FBFF",
-          neutral: "#F9FBFF",
-          "neutral-content": "#385183",
-          "base-100": "#385183",
-          "base-200": "#2A3655",
-          "base-300": "#212638",
-          "base-content": "#F9FBFF",
-          info: "#385183",
-          success: "#34EEB6",
-          warning: "#FFCF72",
-          error: "#FF8863",
+          primary: "#008F6A", // Pale Teal, bringing back the green
+          "primary-content": "#F9FBFF", // Light content for contrast
+          secondary: "#65B3AE", // Desaturated Green as a darker secondary
+          "secondary-content": "#F9FBFF", // Light content for contrast
+          accent: "#65B3AE", // Teal, a lighter green accent
+          "accent-content": "#F9FBFF", // Light content for contrast
+          neutral: "#1B2D34", // Darkened but still green-tinged background
+          "neutral-content": "#65B3AE", // Teal for contrast
+          "base-100": "#1E3A40", // A lighter, yet deep green-tinted background
+          "base-200": "#143026", // Darker greenish tone for layering
+          "base-300": "#0E2520", // Desaturated Green for depth
+          "base-content": "#F9FBFF", // Light text for readability
+          info: "#65B3AE", // Teal for info
+          success: "#008F6A", // Pale Teal for success
+          warning: "#FFCF72", // Warm tone for warnings (keeping original)
+          error: "#FF8863", // Bright tone for errors (keeping original)
 
           "--rounded-btn": "9999rem",
 
