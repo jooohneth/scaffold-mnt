@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://www.mantle.xyz/"><img alt="Mantle" src="./packages/nextjs/public/mantle-horiz.ai" width=320></a>
+  <a href="https://www.mantle.xyz/"><img alt="Mantle" src="https://raw.githubusercontent.com/jooohneth/scaffold-mnt/refs/heads/main/packages/nextjs/public/mantle-horiz.svg" width=320></a>
   <br />
   <br />
 </div>
