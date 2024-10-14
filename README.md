@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://www.mantle.xyz/"><img alt="Mantle" src="https://raw.githubusercontent.com/jooohneth/scaffold-mnt/refs/heads/main/packages/nextjs/public/mantle-horiz.svg" width=320></a>
+  <a href="https://www.mantle.xyz/"><img alt="Mantle" src="https://raw.githubusercontent.com/jooohneth/scaffold-mnt/refs/heads/main/packages/nextjs/public/mantle-horiz.svg" width=640></a>
   <br />
   <br />
 </div>
@@ -81,6 +81,38 @@ Visit your app on: `http://localhost:3000`. You can interact with your smart con
 - Edit your frontend homepage at `packages/nextjs/app/page.tsx`. For guidance on [routing](https://nextjs.org/docs/app/building-your-application/routing/defining-routes) and configuring [pages/layouts](https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts) checkout the Next.js documentation.
 - Edit your deployment scripts in `packages/hardhat/deploy`
 - Edit your smart contract test in: `packages/hardhat/test`. To run test use `yarn hardhat:test`
+
+# 🟢 Deploy to Mantle
+
+When you are ready to deploy to Mantle, generate a deployer account:
+
+```
+yarn generate
+```
+
+Fund the deployer account with ETH on Mantle at:
+
+```
+yarn account
+```
+
+Deploy to Mantle:
+
+```
+yarn deploy --network mantle
+```
+
+# 🍽️ Fork Mainnet Mantle
+
+> stop your `yarn chain`
+
+```
+
+yarn fork
+
+```
+
+(now your local hardhat chain is a fork of Mantle and you can talk to forked Mantle contracts)
 
 ## Documentation
 
