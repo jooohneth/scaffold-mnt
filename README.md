@@ -1,9 +1,23 @@
-# 🏗 Scaffold-ETH 2
+<div align="center">
+  <a href="https://www.mantle.xyz/"><img alt="Mantle" src="./packages/nextjs/public/mantle-horiz.ai" width=320></a>
+  <br />
+  <br />
+</div>
+
+# 🏗 Scaffold-MNT 🟢
 
 <h4 align="center">
   <a href="https://docs.scaffoldeth.io">Documentation</a> |
   <a href="https://scaffoldeth.io">Website</a>
 </h4>
+
+Scaffold-MNT is a fork of Scaffold-ETH-2 optimized to ship on Mantle. This fork provides native support for Mantle and Mantle Sepolia testnet, access to the Mantle faucets and support for native Mantle tooling, e.g. MantleSDK, Mantle Viem and Meta-Transactions.
+
+![Scaffold-MNT](./packages/nextjs/public/mnt-page.png)
+
+Please refer to [Scaffold-ETH-2 Docs](https://docs.scaffoldeth.io/) for guides and documentation.
+
+# (forked from 🏗 Scaffold-ETH-2)
 
 🧪 An open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain. It's designed to make it easier for developers to create and deploy smart contracts and build user interfaces that interact with those contracts.
 
@@ -15,7 +29,7 @@
 - 🔥 **Burner Wallet & Local Faucet**: Quickly test your application with a burner wallet and local faucet.
 - 🔐 **Integration with Wallet Providers**: Connect to different wallet providers and interact with the Ethereum network.
 
-![Debug Contracts tab](https://github.com/scaffold-eth/scaffold-eth-2/assets/55535804/b237af0c-5027-4849-a5c1-2e31495cccb1)
+![Debug Contracts tab](./packages/nextjs/public/mnt-debug.png)
 
 ## Requirements
 
